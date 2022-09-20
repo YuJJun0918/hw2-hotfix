@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mec"
+version = "0.1.0"
+description = "Base repository for Assignments 2 and 3"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.6.0"
+ipykernel = "^6.15.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
